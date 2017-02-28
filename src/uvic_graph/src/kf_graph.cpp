@@ -28,11 +28,16 @@ uvic_msgs::keyframe get_latest_keyframe() {
 
 void kf_issuer_keyframe_callback(const uvic_msgs::keyframe& input) {
   keyframes.push_back(input);
+  //#############################
+  //#########Insert Code#########
+  // to add initial values to the graph
+  //#############################
 }
 
 void kf_issuer_factor_callback(const uvic_msgs::factor& input) {
   //#############################
   //#########Insert Code#########
+  // to add a factor to the graph
   //#############################
 
   //#############################

@@ -1,0 +1,5 @@
+time t_start
+time t_end
+---
+geometry_msgs/PoseWithCovariance delta
+geometry_msgs/PoseWithCovariance Delta

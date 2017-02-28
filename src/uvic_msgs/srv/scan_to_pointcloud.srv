@@ -1,0 +1,4 @@
+sensor_msgs/LaserScan scan
+---
+bool empty
+sensor_msgs/PointCloud2 pointcloud

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>uvic_graph</name>
+  <version>0.0.0</version>
+  <description>The uvic_graph package</description>
+  <maintainer email="david@swords.computer">s</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>uvic_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>uvic_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <export>
+  </export>
+</package>

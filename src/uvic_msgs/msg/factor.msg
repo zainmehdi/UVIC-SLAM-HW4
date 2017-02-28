@@ -1,0 +1,3 @@
+int8 KF_ID_ref
+int8 KF_ID_new
+geometry_msgs/PoseWithCovariance Delta

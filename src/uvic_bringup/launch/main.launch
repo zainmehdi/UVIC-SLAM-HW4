@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="rviz" type="rviz" pkg="rviz" args="-d $(find uvic_bringup)/rviz_cfg/stage.rviz"/>
+  <node pkg="stage_ros" type="stageros" name="stageros" args="$(find uvic_bringup)/world/willow.world"/>
+  
+  <node pkg="uvic_odometry" type="odometry_integrator" name="odometry_integrator" output="screen"/>
+  <node pkg="uvic_odometry" type="odometry_buffer" name="odometry_buffer" output="screen"/>
+  
+  <node pkg="uvic_scanner" type="scan_conversion" name="scan_conversion" output="screen"/>
+  <node pkg="uvic_scanner" type="scan_matching" name="scan_matching" output="screen"/>
+
+  <node pkg="uvic_graph" type="kf_graph" name="kf_graph" output="screen"/>
+  <node pkg="uvic_graph" type="kf_issuer" name="kf_issuer" output="screen"/>
+</launch>

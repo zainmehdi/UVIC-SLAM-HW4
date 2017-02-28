@@ -17,8 +17,19 @@ https://pdfs.semanticscholar.org/5f27/7ad6aff683be07bed616897a159464354333.pdf
 ## Installation
 `git clone git@github.com:davidswords/UVIC-SLAM-HW4.git`
 
+To run, execute the following:
+
+```
+roslaunch uvic_bringup main.launch
+```
 ## Homework
 
 By now, we will work in the classroom all together, identifying pieces of code that we can write or improve. Our main guide will be the system diagram and its accompanying guidelines document.
 
 After today's class, this file will evolve to reflect additional homework that you will have to do at home.
+
+
+
+```
+roslaunch uvic_bringup main.launch
+```

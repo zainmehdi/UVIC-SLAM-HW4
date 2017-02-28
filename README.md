@@ -15,7 +15,7 @@ Gtsam tutorial
 https://pdfs.semanticscholar.org/5f27/7ad6aff683be07bed616897a159464354333.pdf
 
 ## Installation
-`git clone git@github.com:davidswords/SLAM-HW4-Private.git`
+`git clone git@github.com:davidswords/UVIC-SLAM-HW4.git`
 
 ## Homework
 
